@@ -233,7 +233,7 @@ export default function CreateIssueForm({ draftValues, enableDrafts = true }: Cr
         <Form.TextField {...(itemProps[epicNameField.key] as Form.ItemProps<string>)} title={epicNameField.name} />
       ) : null}
 
-      <Form.TextField {...itemProps.summary} title="Summary" placeholder="Short summary for the issue" />
+      <Form.TextField {...itemProps.summary} title="Summary" placeholder="Short summary for the issue" autoFocus=true />
 
       {issueLinksAutocompleteUrl && selectedProject ? (
         <FormParentDropdown

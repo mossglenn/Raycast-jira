@@ -5,14 +5,15 @@
   "description": "Create, access, and modify issues and sprints.",
   "icon": "icon.png",
   "author": "thomaslombart",
+  "owner": "amosglenn",
   "contributors": [
-    "FezVrasta"
+    "FezVrasta",
+    "amos_glenn"
   ],
-  "owner": "raycast",
-  "access": "public",
   "categories": [
     "Productivity"
   ],
+  "access": "private",
   "license": "MIT",
   "commands": [
     {
